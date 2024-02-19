@@ -244,7 +244,7 @@ nav a:link {
 
 	main {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 section {
 	margin-top: 1rem;
