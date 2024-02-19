@@ -231,15 +231,15 @@ footer a {
 		background: #ffbb76;
 		border-radius: 0.1rem;
 		border: 1px solid #76baff;
-		color: #000000;
+		color: black;
 	}
 
 nav a:visited {
-	color: #000000;
+	color: black;
 }
 
 nav a:link {
-	color: #000000;
+	color: black;
 }
 
 	main {
