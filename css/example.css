@@ -142,32 +142,32 @@ a:link {
 	padding: 1rem;
 	min-width: 50px;
 	min-height: 50px;
-	background: blueviolet;
-	border: 5px solid darkred;
+	background: black;
+	border: 5px solid darkgoldenrod;
 }
 
 .red {
 	padding: 1rem;
 	min-width: 50px;
 	min-height: 50px;
-	background: darkcyan;
-	border: 5px dotted darkgreen;
+	background: black;
+	border: 5px dotted darkgoldenrod;
 }
 
 .green {
 	padding: 1rem;
 		min-width: 50px;
 	min-height: 50px;
-	background: seagreen;
-	border: 5px solid mediumpurple; 
+	background: black;
+	border: 5px solid darkgoldenrod; 
 }
 
 .orange {
 	padding: 1rem;
 		min-width: 50px;
 	min-height: 50px;
-	background: lightcoral;
-	border: 5px dotted darkorange;
+	background: black;
+	border: 5px dotted darkgoldenrod;
 }
 
 footer a {
