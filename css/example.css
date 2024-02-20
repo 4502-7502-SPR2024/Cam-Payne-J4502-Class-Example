@@ -190,7 +190,7 @@ footer a {
 */
 @media (max-width:200px) {
 	body {
-		background: hotpink;
+		background: palegoldenrod;
 	}
 	img {
 		max-width: 100%;
