@@ -65,5 +65,5 @@ h2 {
 .lead-image img {
 	margin: 0 auto;
 	object-fit: contain;
-	max-width: 100%;
+	max-width: 75%;
 }
