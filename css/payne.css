@@ -1,3 +1,10 @@
+nav {
+
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	font-family: ;
+}
 body section .lead-image {
 	display: flex;
 	justify-content: center;
