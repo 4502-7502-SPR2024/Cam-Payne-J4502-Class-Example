@@ -17,6 +17,12 @@ h1 {
 	
 }
 
+h2 {
+	display: flex;
+	justify-content: center;
+	font-family: "Sanchez", serif;
+	font-size: 4rem;
+
 .lead-image {
 	display: flex;
 	justify-content: center;
