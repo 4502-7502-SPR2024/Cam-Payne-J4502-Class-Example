@@ -1,12 +1,12 @@
 
 
-	nav {
+nav {
 		display: flex;
 	justify-content: center;
 	text-transform: uppercase;
 	font-family: ;
 	}
-	nav a{
+nav a{
 		font-family: "Anta", sans-serif;
 		text-align: center;
 		text-decoration: none;
@@ -20,7 +20,7 @@
 		color: darkcyan;
 	}
 
-	nav a:visited {
+nav a:visited {
 	color: darkcyan;
 }
 
