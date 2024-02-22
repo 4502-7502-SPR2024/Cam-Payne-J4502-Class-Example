@@ -1,5 +1,30 @@
-body { 
-	max-width: 1080px; 
-	margin: 0 auto !important; 
-	float: none !important; 
+body section .lead-image {
+	display: flex;
+	justify-content: center;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+title {
+
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-family: "Sanchez", serif;
+	font-size: 4rem;
+	
+}
+
+.lead-image {
+	display: flex;
+	justify-content: center;
+
+}
+
+.lead-image img {
+	margin: 0 auto;
+	object-fit: contain;
+	max-width: 100%;
 }
