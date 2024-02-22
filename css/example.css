@@ -1,6 +1,7 @@
 
 
 nav {
+
 	display: flex;
 	justify-content: center;
 	text-transform: uppercase;
@@ -25,8 +26,14 @@ nav a:visited {
 	color: darkcyan;
 }
 
+nav a:hover {
+	color: #ffbb76;
+	background-color: #003d3d;
+}
 
 body {
+	 scrollbar-color: red orange;
+  scrollbar-width: thin;
 /*	background: mediumpurple;*/
 	background: linear-gradient(#e66465, #9198e5);
 	display: flex;
@@ -78,7 +85,7 @@ h1 {
 }
 
 p {
-	font-family: "Black Text", serif;
+	font-family: "Crimson Text", serif;
 	font-size: 1.2rem;
 	color: #474747;
 }
@@ -90,7 +97,7 @@ li {
 }
 
 img {
-	max-width: 80%;
+	max-width: 100%;
 	padding: 5px;
 	margin: 5px;
 
@@ -114,8 +121,9 @@ a:link {
 	background: #b17200;
 /*	color: #c4c4ff;*/
 	color: lightcyan;
-	padding-left 
+	padding-left: 1rem;
 }
+
 
 
 /*Classes start*/
@@ -123,7 +131,7 @@ a:link {
 .shadow {
 	text-shadow: 10px 1px 2px orangered;	
 }
-	
+
 .copyright {
 	font-size: 0.9rem;
 }
@@ -135,39 +143,39 @@ a:link {
 	gap: 10px;
   gap: 10px 20px; /* row-gap column gap */
   row-gap: 10px;
-  column-gap: 20px;
+  column-gap: 10px;
 }
 
 .blue {
 	padding: 1rem;
 	min-width: 50px;
 	min-height: 50px;
-	background: black;
-	border: 5px solid darkgoldenrod;
+	background: blueviolet;
+	border: 5px solid darkred;
 }
 
 .red {
 	padding: 1rem;
 	min-width: 50px;
 	min-height: 50px;
-	background: black;
-	border: 5px dotted darkgoldenrod;
+	background: darkcyan;
+	border: 5px dotted darkgreen;
 }
 
 .green {
 	padding: 1rem;
 		min-width: 50px;
 	min-height: 50px;
-	background: black;
-	border: 5px solid darkgoldenrod; 
+	background: seagreen;
+	border: 5px solid mediumpurple; 
 }
 
 .orange {
 	padding: 1rem;
 		min-width: 50px;
 	min-height: 50px;
-	background: black;
-	border: 5px dotted darkgoldenrod;
+	background: lightcoral;
+	border: 5px dotted darkorange;
 }
 
 footer a {
@@ -190,7 +198,7 @@ footer a {
 */
 @media (max-width:200px) {
 	body {
-		background: palegoldenrod;
+		background: hotpink;
 	}
 	img {
 		max-width: 100%;
@@ -200,9 +208,7 @@ footer a {
 
 @media (min-width: 201px) and (max-width:575px) {
 	body {
-	overflow: scroll;
-  scrollbar-color: red orange;
-  scrollbar-width: thin;
+		
 		background: darkcyan;
 
 	}
@@ -212,7 +218,7 @@ footer a {
 	}
 	nav {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		
 
 /*		padding: 1rem;*/
@@ -232,20 +238,24 @@ footer a {
 		background: #ffbb76;
 		border-radius: 0.1rem;
 		border: 1px solid #76baff;
-		color: black;
+		color: #003d3d;
 	}
 
 nav a:visited {
-	color: black;
+	color: darkred;
+	
 }
 
 nav a:link {
-	color: black;
+	color: #003d3d;
+
 }
+
+
 
 	main {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 section {
 	margin-top: 1rem;
@@ -272,7 +282,7 @@ section {
 	margin: 0 auto;
 	object-fit: contain;
 	max-width: 100%;
-	border: 5px lightgoldenrodyellow;
+	border: 5px solid crimson;
 	border-radius: 15rem;
 }
 
@@ -285,6 +295,18 @@ a:visited {
 
 a:hover {
 	color: purple;
+}
+
+ol li {
+	color: lightgray; !important;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.list45 {
+	font-size: 5rem;
 }
 
 }
