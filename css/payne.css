@@ -19,6 +19,16 @@
 		border: 1px solid #76baff;
 		color: darkcyan;
 	}
+
+	nav a:visited {
+	color: darkcyan;
+}
+
+nav a:hover {
+	color: #ffbb76;
+	background-color: #003d3d;
+}
+
 body section .lead-image {
 	display: flex;
 	justify-content: center;
