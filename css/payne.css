@@ -17,7 +17,7 @@ nav a{
 		background: #ffbb76;
 		border-radius: 0.1rem;
 		border: 1px solid #76baff;
-		color: darkcyan;
+		color: black;
 	}
 
 nav a:visited {
@@ -25,8 +25,8 @@ nav a:visited {
 }
 
 nav a:hover {
-	color: #ffbb76;
-	background-color: #003d3d;
+	color: lightgoldenrodyellow;
+	background-color: black;
 }
 
 body section .lead-image {
