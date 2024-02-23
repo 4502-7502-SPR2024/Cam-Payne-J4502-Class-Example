@@ -45,7 +45,7 @@ h1 {
 	justify-content: center;
 	font-family: "Roboto", serif;
 	font-weight: 700;;
-	font-size: 5rem;
+	font-size: 6rem;
 	
 }
 
@@ -81,7 +81,13 @@ a{
 	text-decoration:none;
 	color: black;
 }
-
+	a:visited {
+	color: darkred;
+}
+ a:hover {
+	color: lightgoldenrodyellow;
+	background-color: black;
+	}
 li {
 	display: flex;
 	justify-content: center;
