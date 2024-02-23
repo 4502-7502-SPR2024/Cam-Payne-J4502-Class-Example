@@ -124,4 +124,13 @@ footer a {
 
 footer a:visited {
 	color: darkgoldenrod ;
+	@media (max-width:200px) {
+	body {
+		background: hotpink;
+	}
+	img {
+		max-width: 100%;
+	}
+
+}
 
