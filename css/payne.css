@@ -52,8 +52,9 @@ h1 {
 h2 {
 	display: flex;
 	justify-content: center;
-	font-family: "Sanchez", sans-serif;
-	font-weight:;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size:2rem;
 
 }
 
