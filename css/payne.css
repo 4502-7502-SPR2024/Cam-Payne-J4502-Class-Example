@@ -43,7 +43,8 @@ title {
 h1 {
 	display: flex;
 	justify-content: center;
-	font-family: "Sanchez", serif;
+	font-family: "Roboto", serif;
+	font-weight: 700;;
 	font-size: 4rem;
 	
 }
@@ -51,8 +52,8 @@ h1 {
 h2 {
 	display: flex;
 	justify-content: center;
-	font-family: "Sanchez", serif;
-	font-size: 4rem;
+	font-family: "Sanchez", sans-serif;
+	font-weight:;
 
 }
 
