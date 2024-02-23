@@ -21,7 +21,7 @@ nav a{
 	}
 
 nav a:visited {
-	color: darkred;
+	color: darkgoldenrod;
 }
 
 nav a:hover {
@@ -82,7 +82,7 @@ a{
 	color: black;
 }
 	a:visited {
-	color: darkred;
+	color: darkgoldenrod;
 }
  a:hover {
 	color: lightgoldenrodyellow;
