@@ -52,8 +52,8 @@ h1 {
 h2 {
 	display: flex;
 	justify-content: center;
-	font-family: "Open Sans", sans-serif;
-	font-weight: 400;
+	font-family: "Roboto", serif;
+	font-weight: 700;
 	font-size:2rem;
 
 }
@@ -72,7 +72,8 @@ h2 {
 p {
 	display: flex;
 	justify-content: center;
-	font-family: "Crimson Text", serif;
+	font-family: "Open Sans", sans-serif;
+	font-weight:250;
 	font-size: 1.2rem;
 	color: #474747;
 }
