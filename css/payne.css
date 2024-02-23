@@ -48,19 +48,7 @@ h1 {
 	font-size: 6rem;
 	
 }
-button {
-  background-color: #E3AD16;
-  border: none;
-  color: #000;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  display: block;
-  cursor: pointer;
-  width: 100px;
-  padding: 0.8rem 1rem;
-  border-radius: 5px;
-}
+
 
 h2 {
 	display: flex;
