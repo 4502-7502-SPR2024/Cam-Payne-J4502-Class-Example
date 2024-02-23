@@ -77,12 +77,16 @@ p {
 	color: #474747;
 }
 
+a{
+	text-decoration:none;
+	color: black;
+}
+
 li {
 	display: flex;
 	justify-content: center;
 	font-family: "Montserrat", sans-serif;
 	font-size: 1.5rem;
-	text decoration: none;
 	color: red;
 }
 footer a {
