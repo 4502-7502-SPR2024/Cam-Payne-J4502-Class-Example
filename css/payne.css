@@ -101,11 +101,13 @@ footer a {
     margin-left: auto;
     margin-right: auto;
     background: #000;
-  	color: #E3AD16;
+  	color: lightgoldenrodyellow;
   	width: 100%;
   	margin: 0;
   	padding: 1rem;
   	box-sizing: border-box;
   	font-weight: bold;
 }
+footer a:visited {
+	color: darkgoldenrod ;
 
