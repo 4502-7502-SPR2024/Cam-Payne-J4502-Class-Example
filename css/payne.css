@@ -45,10 +45,22 @@ h1 {
 	justify-content: center;
 	font-family: "Roboto", serif;
 	font-weight: 700;;
-	font-size: 6rem;
+	font-size: 5rem;
 	
 }
 
+main {
+  width: 90%;
+  max-width: 1000px;
+  background: #FFF;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  margin: 1rem auto;
+}
+body {
+  background-color:lightblue ;
+}
 
 h2 {
 	display: flex;
