@@ -137,6 +137,8 @@ footer a:visited {
 	font-family: ;
 	}
 nav a{
+	display: flex;
+	flex-direction: column;
 		font-family: "Anta", sans-serif;
 		text-align: center;
 		text-decoration: none;
