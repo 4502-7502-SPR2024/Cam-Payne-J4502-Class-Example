@@ -137,11 +137,10 @@ footer a:visited {
 	font-family: ;
 	}
 nav a{
-	display: flex;
-	flex-direction: column;
 		font-family: "Anta", sans-serif;
 		text-align: center;
 		text-decoration: none;
+		justify-content: center;
 /*		width: 100%;*/
 		padding: 0.2rem;
 		margin: 0.1rem;
