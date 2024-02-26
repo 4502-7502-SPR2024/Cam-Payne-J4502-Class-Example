@@ -106,6 +106,10 @@ h3 {
 	object-fit: contain;
 	max-width: 80%;
 }
+caption{
+	justify-content: center;
+	font-family: "Open Sans", sans-serif;
+}
 p {
 	display: flex;
 	justify-content: center;
