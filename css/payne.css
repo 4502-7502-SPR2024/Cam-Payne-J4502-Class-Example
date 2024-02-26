@@ -106,16 +106,8 @@ h3 {
 	object-fit: contain;
 	max-width: 80%;
 }
-caption{
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	text-decoration-color: lightgrey;
-	font-family: "Open Sans", sans-serif;
-	font-weight: normal;
-	font-size: 0.5rem;
-	max-width: 80%;
-}
+
+
 p {
 	display: flex;
 	justify-content: center;
