@@ -109,6 +109,7 @@ h3 {
 caption{
 	justify-content: center;
 	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
 }
 p {
 	display: flex;
@@ -248,6 +249,12 @@ h3 {
 	object-fit: contain;
 	max-width: 90%;
 }
+caption{
+	justify-content: center;
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+}
+
 p {
 	display: flex;
 	justify-content: center;
