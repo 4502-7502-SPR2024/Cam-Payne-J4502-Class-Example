@@ -112,6 +112,8 @@ caption{
 	font-family: "Open Sans", sans-serif;
 	font-weight: normal;
 	font-size: o.5rem;
+	color: lightgray;
+	max-width: 80%;
 }
 p {
 	display: flex;
@@ -257,6 +259,7 @@ caption{
 	font-family: "Open Sans", sans-serif;
 	font-weight: normal;
 	font-size: 0.8rem;
+	color: lightgrey;
 }
 
 p {
