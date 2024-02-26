@@ -78,6 +78,7 @@ h2 {
 }
 
 .lead-image img {
+	border:none;
 	margin: 0 auto;
 	object-fit: contain;
 	max-width: 80%;
