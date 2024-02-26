@@ -131,6 +131,7 @@ footer a:visited {
 @media (min-width: 201px) and (max-width:575px) {
 		nav {
 		display: flex;
+		flex-direction: column;
 	justify-content: center;
 	text-transform: uppercase;
 	font-family: ;
@@ -139,7 +140,6 @@ nav a{
 		font-family: "Anta", sans-serif;
 		text-align: center;
 		text-decoration: none;
-		justify-content: center;
 /*		width: 100%;*/
 		padding: 0.2rem;
 		margin: 0.1rem;
