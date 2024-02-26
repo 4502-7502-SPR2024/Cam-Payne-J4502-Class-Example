@@ -93,6 +93,9 @@ h3 {
 		color: #F1B82D ;
 
 }
+div{
+	max-width: 80%;
+}
 
 .lead-image img{
 	display: flex;
@@ -109,11 +112,10 @@ h3 {
 caption{
 	justify-content: center;
 	text-align: center;
+	text-decoration-color: lightgrey;
 	font-family: "Open Sans", sans-serif;
 	font-weight: normal;
-	font-size: o.5rem;
-	color: lightgray;
-	max-width: 80%;
+	font-size: 0.5rem;
 }
 p {
 	display: flex;
