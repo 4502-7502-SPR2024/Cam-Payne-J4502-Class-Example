@@ -215,6 +215,7 @@ h2 {
 p {
 	display: flex;
 	justify-content: center;
+	text-align: center;
 	font-family: "Open Sans", sans-serif;
 	font-weight: normal;
 	font-size: 0.8rem;
