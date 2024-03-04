@@ -78,16 +78,6 @@ h3 {
 
 
 
-
-
-.image-holder img {
-  width: 100%;
-  max-width: 250px;
-  margin: 0 auto;
-  flex-direction: ;
-}
-
-
 p {
 	display: flex;
 	justify-content: ;
@@ -95,7 +85,7 @@ p {
 	font-weight: normal;
 	font-size: 1.1rem;
 	color: black;
-	
+
 }
 
 a{
