@@ -1,0 +1,303 @@
+
+nav {
+		display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	font-family: ;
+	}
+nav a{
+		font-family: "Anta", sans-serif;
+		text-align: center;
+		text-decoration: none;
+		justify-content: center;
+/*		width: 100%;*/
+		padding: 0.2rem;
+		margin: 0.1rem;
+		background: black;
+		border-radius: 0.1rem;
+		border: 1px solid black;
+		color: lightgoldenrodyellow;
+	}
+
+nav a:visited {
+	color: darkgoldenrod;
+}
+
+nav a:hover {
+	color: lightgoldenrodyellow;
+	background-color: black;
+}
+
+body section .lead-image {
+	display: flex;
+	justify-content: center;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+title {
+
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-family: "Roboto", serif;
+	font-weight: 700;;
+	font-size: 5rem;
+	padding: 0.2rem;
+		margin: 0.1rem;
+		background: black;
+		border-radius: 0.1rem;
+		border: 1px solid #76baff;
+		color: #F1B82D ;
+	
+}
+
+main {
+  width: 90%;
+  max-width: 1000px;
+  background: #FFF;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  margin: 1rem auto;
+}
+body {
+  background-color:#F1B82D ;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	font-family: "Roboto", serif;
+	font-weight: 700;
+	font-size:3.5rem;
+	background: black;
+		border-radius: 0.1rem;
+		border: 1px solid #76baff;
+		color: #F1B82D ;
+
+}
+
+h3 {
+	display: flex;
+	justify-content: center;
+	font-family: "Roboto", serif;
+	font-weight: 700;
+	font-size:1.5rem;
+	background: black;
+		border-radius: 0.1rem;
+		border: 1px solid #76baff;
+		color: #F1B82D ;
+
+}
+
+.lead-image img{
+	display: flex;
+	justify-content: center;
+
+}
+
+.lead-image img {
+	border:none;
+	margin: 0 auto;
+	object-fit: contain;
+	max-width: 80%;
+}
+
+
+p {
+	display: flex;
+	justify-content: center;
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	font-size: 1.1rem;
+	color: black;
+}
+
+a{
+	text-decoration:none;
+	color: black;
+}
+	a:visited {
+	color: darkgoldenrod;
+}
+ a:hover {
+	color: lightgoldenrodyellow;
+	background-color: black;
+	}
+li {
+	display: flex;
+	justify-content: center;
+	font-family: "Montserrat", sans-serif;
+	font-weigth: normal;
+	font-size: 1.5rem;
+	color: red;
+}
+footer a {
+	display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #000;
+  	color: lightgoldenrodyellow;
+  	width: 100%;
+  	margin: 0;
+  	padding: 1rem;
+  	box-sizing: border-box;
+  	font-weight: bold;
+}
+
+footer a:visited {
+	color: darkgoldenrod ;
+}
+@media (min-width: 201px) and (max-width:575px) {
+		nav {
+		display: flex;
+		flex-direction: column;
+	justify-content: center;
+	text-transform: uppercase;
+	font-family: ;
+	}
+nav a{
+		font-family: "Anta", sans-serif;
+		text-align: center;
+		text-decoration: none;
+		justify-content: center;
+/*		width: 100%;*/
+		padding: 0.2rem;
+		margin: 0.1rem;
+		background: black;
+		border-radius: 0.1rem;
+		border: 1px solid black;
+		color: lightgoldenrodyellow;
+	}
+
+nav a:visited {
+	color: darkgoldenrod;
+}
+
+nav a:hover {
+	color: lightgoldenrodyellow;
+	background-color: black;
+}
+
+body section .lead-image {
+	display: flex;
+	justify-content: center;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+title {
+
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-family: "Roboto", serif;
+	font-weight: 700;;
+	font-size: 2rem;
+	
+}
+
+main {
+  width: 90%;
+  max-width: 1000px;
+  background: #FFF;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  margin: 1rem auto;
+}
+body {
+  background-color:#F1B82D ;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	font-family: "Roboto", serif;
+	font-weight: 700;
+	font-size:1.5rem;
+
+}
+
+h3 {
+	display: flex;
+	justify-content: center;
+	font-family: "Roboto", serif;
+	font-weight: 700;
+	font-size:1.5rem;
+
+}
+
+.lead-image img{
+	display: flex;
+	justify-content: center;
+
+}
+
+.lead-image img {
+	margin: 0 auto;
+	object-fit: contain;
+	max-width: 90%;
+}
+caption{
+	justify-content: center;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	font-size: 0.8rem;
+	color: lightgrey;
+}
+
+p {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	font-size: 0.8rem;
+	color: black;
+}
+
+a{
+	text-decoration:none;
+	color: black;
+}
+	a:visited {
+	color: darkgoldenrod;
+}
+ a:hover {
+	color: lightgoldenrodyellow;
+	background-color: black;
+	}
+li {
+	display: flex;
+	justify-content: center;
+	font-family: "Montserrat", sans-serif;
+	font-weight: normal;
+	font-size: 1.0rem;
+	color: red;
+}
+footer a {
+	display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #000;
+  	color: lightgoldenrodyellow;
+  	width: 100%;
+  	margin: 0;
+  	padding: 1rem;
+  	box-sizing: border-box;
+  	font-weight: bold;
+}
+
+footer a:visited {
+	color: darkgoldenrod ;
+}
+}
