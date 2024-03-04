@@ -45,7 +45,7 @@ h1 {
 	font-family: "Roboto", serif;
 	font-weight: 700;;
 	font-size: 5rem;
-		color: #F1B82D ;
+		color: #000000 ;
 	
 }
 
@@ -68,10 +68,7 @@ h2 {
 	font-family: "Roboto", serif;
 	font-weight: 700;
 	font-size:3.5rem;
-	background: black;
-		border-radius: 0.1rem;
-		border: 1px solid #76baff;
-		color: #F1B82D ;
+		color: #000000 ;
 
 }
 
@@ -81,10 +78,7 @@ h3 {
 	font-family: "Roboto", serif;
 	font-weight: 700;
 	font-size:1.5rem;
-	background: black;
-		border-radius: 0.1rem;
-		border: 1px solid #76baff;
-		color: #F1B82D ;
+		color: #000000 ;
 
 }
 
