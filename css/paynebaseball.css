@@ -211,25 +211,9 @@ h3 {
 	font-size:1.5rem;
 
 }
-
-.lead-image img{
-	display: flex;
-	justify-content: center;
-
-}
-
-.lead-image img {
-	margin: 0 auto;
-	object-fit: contain;
-	max-width: 90%;
-}
-caption{
-	justify-content: center;
-	text-align: center;
-	font-family: "Open Sans", sans-serif;
-	font-weight: normal;
-	font-size: 0.8rem;
-	color: lightgrey;
+img {
+	display: inline-block;
+  margin: 25px 10px;
 }
 
 p {
@@ -243,16 +227,18 @@ p {
 }
 
 a{
+	font-family: "Open Sans", sans-serif;
 	text-decoration:none;
-	color: black;
+	color: blue;
 }
 	a:visited {
-	color: darkgoldenrod;
+	color: darkviolet;
 }
  a:hover {
-	color: lightgoldenrodyellow;
+	color: blueviolet;
 	background-color: black;
 	}
+
 li {
 	display: flex;
 	justify-content: center;
