@@ -112,6 +112,14 @@ h3 {
   margin: 0 auto;
 }
 
+p1 {
+	display: flex;
+	justify-content: center;
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	font-size: 1.1rem;
+	color: black;
+}
 
 p {
 	display: flex;
