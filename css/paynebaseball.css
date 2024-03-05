@@ -124,14 +124,14 @@ p {
 
 a{
 	text-decoration:none;
-	color: black;
+	color: blueviolet;
 }
 	a:visited {
-	color: darkgoldenrod;
+	color: darkviolet;
 }
  a:hover {
 	color: lightgoldenrodyellow;
-	background-color: black;
+	background-color: lightskyblue;
 	}
 li {
 	display: flex;
