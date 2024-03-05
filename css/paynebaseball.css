@@ -228,17 +228,30 @@ h3 {
 
 }
 
-.lead-image img{
-	display: flex;
-	justify-content: center;
-
+.location-holder, .media-holder {
+  width: 100%;
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-sizing: border-box;
 }
 
-.lead-image img {
-	margin: 0 auto;
-	object-fit: contain;
-	max-width: 90%;
+.image-holder, .text-holder {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
+
+.image-holder img {
+  width: 150%;
+  max-width: 275px;
+  margin: 0 auto;
+}
+
 
 p {
 	display: flex;
@@ -262,7 +275,7 @@ a{
 	color: lightskyblue;
 	background-color: ;
 	} 
-	
+
 li {
 	display: flex;
 	justify-content: center;
