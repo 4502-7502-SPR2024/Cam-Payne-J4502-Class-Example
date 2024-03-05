@@ -88,18 +88,28 @@ h3 {
 		color: #F1B82D ;
 
 }
-
-.lead-image img{
-	display: flex;
-	justify-content: center;
-
+.location-holder, .media-holder {
+  width: 100%;
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-sizing: border-box;
 }
 
-.lead-image img {
-	border:none;
-	margin: 0 auto;
-	object-fit: contain;
-	max-width: 80%;
+.image-holder, .text-holder {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.image-holder img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
 }
 
 
@@ -131,13 +141,13 @@ li {
 	font-size: 1.5rem;
 	color: red;
 }
-footer a {
+footer {
 	display: table;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     background: #000;
-  	color: lightgoldenrodyellow;
+  	color: #F1B82D;
   	width: 100%;
   	margin: 0;
   	padding: 1rem;
@@ -145,8 +155,7 @@ footer a {
   	font-weight: bold;
 }
 
-footer a:visited {
-	color: darkgoldenrod ;
+
 }
 @media (min-width: 201px) and (max-width:575px) {
 		nav {
@@ -285,17 +294,12 @@ footer a {
     margin-left: auto;
     margin-right: auto;
     background: #000;
-  	color: lightgoldenrodyellow;
+  	color: #F1B82D;
   	width: 100%;
   	margin: 0;
   	padding: 1rem;
   	box-sizing: border-box;
   	font-weight: bold;
-}
-
-footer a:visited {
-	color: darkgoldenrod ;
-}
 }
 
 
