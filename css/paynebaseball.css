@@ -76,9 +76,28 @@ h2 {
 
 
 } 
-img {
-	display: inline-block;
-  margin: 25px 10px;
+.location-holder, .media-holder {
+  width: 100%;
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-sizing: border-box;
+}
+
+.image-holder, .text-holder {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.image-holder img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
 }
 
 
