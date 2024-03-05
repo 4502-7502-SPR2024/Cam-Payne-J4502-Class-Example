@@ -239,14 +239,6 @@ h3 {
 	object-fit: contain;
 	max-width: 90%;
 }
-caption{
-	justify-content: center;
-	text-align: center;
-	font-family: "Open Sans", sans-serif;
-	font-weight: normal;
-	font-size: 0.8rem;
-	color: lightgrey;
-}
 
 p {
 	display: flex;
@@ -258,17 +250,19 @@ p {
 	color: black;
 }
 
+
 a{
 	text-decoration:none;
-	color: black;
+	color: blueviolet;
 }
 	a:visited {
-	color: darkgoldenrod;
+	color: darkviolet;
 }
  a:hover {
-	color: lightgoldenrodyellow;
-	background-color: black;
-	}
+	color: lightskyblue;
+	background-color: ;
+	} 
+	
 li {
 	display: flex;
 	justify-content: center;
