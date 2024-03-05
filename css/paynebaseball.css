@@ -75,7 +75,10 @@ h3 {
 		color: #000000 ;
 
 } 
-
+img {
+	display: inline-block;
+  margin: 25px 10px;
+}
 
 
 p {
