@@ -76,18 +76,7 @@ h2 {
 
 }
 
-h3 {
-	display: flex;
-	justify-content: center;
-	font-family: "Roboto", serif;
-	font-weight: 700;
-	font-size:1.5rem;
-	background: black;
-		border-radius: 0.1rem;
-		border: 1px solid #76baff;
-		color: #F1B82D ;
 
-}
 .location-holder, .media-holder {
   width: 100%;
   margin: 4rem 0;
