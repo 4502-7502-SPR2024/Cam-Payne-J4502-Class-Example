@@ -130,8 +130,8 @@ a{
 	color: darkviolet;
 }
  a:hover {
-	color: lightgoldenrodyellow;
-	background-color: lightskyblue;
+	color: lightskyblue;
+	background-color: ;
 	}
 li {
 	display: flex;
