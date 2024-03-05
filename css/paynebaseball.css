@@ -95,6 +95,7 @@ h2 {
 }
 
 .image-holder img {
+	justify-content: center;
   width: 100%;
   max-width: 250px;
   margin: 0 auto;
