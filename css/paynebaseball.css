@@ -110,23 +110,18 @@ li {
 	font-size: 1.5rem;
 	color: red;
 }
-footer a {
-	display: table;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    background: #000;
-  	color: lightgoldenrodyellow;
-  	width: 100%;
-  	margin: 0;
-  	padding: 1rem;
-  	box-sizing: border-box;
-  	font-weight: bold;
+footer {
+  background: #000;
+  color: #E3AD16;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
 }
 
-footer a:visited {
-	color: darkgoldenrod ;
-}
+
 @media (min-width: 201px) and (max-width:575px) {
 		nav {
 		display: flex;
