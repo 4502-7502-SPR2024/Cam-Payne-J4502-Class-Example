@@ -93,13 +93,13 @@ p {
 
 a{
 	text-decoration:none;
-	color: black;
+	color: blue;
 }
 	a:visited {
-	color: darkgoldenrod;
+	color: darkviolet;
 }
  a:hover {
-	color: lightgoldenrodyellow;
+	color: blueviolet;
 	background-color: black;
 	}
 li {
