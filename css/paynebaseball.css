@@ -28,7 +28,7 @@ nav a:hover {
 	background-color: black;
 }
 
-body section {
+body section .lead-image {
 	display: flex;
 	justify-content: center;
 	margin-left: 1rem;
@@ -44,9 +44,13 @@ h1 {
 	justify-content: center;
 	font-family: "Roboto", serif;
 	font-weight: 700;;
-	font-size: 5.5rem;
-	margin: 0
-		color: #000000 ;
+	font-size: 5rem;
+	padding: 0.2rem;
+		margin: 0.1rem;
+		background: black;
+		border-radius: 0.1rem;
+		border: 1px solid #76baff;
+		color: #F1B82D ;
 	
 }
 
@@ -67,60 +71,60 @@ h2 {
 	display: flex;
 	justify-content: center;
 	font-family: "Roboto", serif;
-	font-style: italic;
 	font-weight: 700;
 	font-size:3.5rem;
-
+	background: black;
+		border-radius: 0.1rem;
+		border: 1px solid #76baff;
+		color: #F1B82D ;
 
 }
 
-
-} 
-.location-holder, .media-holder {
-  width: 100%;
-  margin: 4rem 0;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  box-sizing: border-box;
-}
-
-.image-holder, .text-holder {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-}
-
-.image-holder img {
+h3 {
+	display: flex;
 	justify-content: center;
-  width: 100%;
-  max-width: 250px;
-  margin: 0 auto;
+	font-family: "Roboto", serif;
+	font-weight: 700;
+	font-size:1.5rem;
+	background: black;
+		border-radius: 0.1rem;
+		border: 1px solid #76baff;
+		color: #F1B82D ;
+
+}
+
+.lead-image img{
+	display: flex;
+	justify-content: center;
+
+}
+
+.lead-image img {
+	border:none;
+	margin: 0 auto;
+	object-fit: contain;
+	max-width: 80%;
 }
 
 
 p {
 	display: flex;
-	justify-content: center ;
+	justify-content: center;
 	font-family: "Open Sans", sans-serif;
 	font-weight: normal;
 	font-size: 1.1rem;
 	color: black;
-
 }
 
 a{
 	text-decoration:none;
-	color: blue;
+	color: black;
 }
 	a:visited {
-	color: darkviolet;
+	color: darkgoldenrod;
 }
  a:hover {
-	color: blueviolet;
+	color: lightgoldenrodyellow;
 	background-color: black;
 	}
 li {
@@ -131,18 +135,23 @@ li {
 	font-size: 1.5rem;
 	color: red;
 }
-footer {
-  background: #000;
-  color: #E3AD16;
-  width: 100%;
-  margin: 0;
-  padding: 1rem;
-  box-sizing: border-box;
-  text-align: center;
-  font-weight: bold;
+footer a {
+	display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #000;
+  	color: lightgoldenrodyellow;
+  	width: 100%;
+  	margin: 0;
+  	padding: 1rem;
+  	box-sizing: border-box;
+  	font-weight: bold;
 }
 
-
+footer a:visited {
+	color: darkgoldenrod ;
+}
 @media (min-width: 201px) and (max-width:575px) {
 		nav {
 		display: flex;
@@ -176,7 +185,7 @@ nav a:hover {
 
 body section .lead-image {
 	display: flex;
-	justify-content: ;
+	justify-content: center;
 	margin-left: 1rem;
 	margin-right: 1rem;
 }
@@ -187,7 +196,7 @@ title {
 
 h1 {
 	display: flex;
-	justify-content:center ;
+	justify-content: center;
 	font-family: "Roboto", serif;
 	font-weight: 700;;
 	font-size: 2rem;
@@ -212,7 +221,7 @@ h2 {
 	justify-content: center;
 	font-family: "Roboto", serif;
 	font-weight: 700;
-	font-size:1 rem;
+	font-size:1.5rem;
 
 }
 
@@ -224,9 +233,25 @@ h3 {
 	font-size:1.5rem;
 
 }
-img {
-	display: inline-block;
-  margin: 25px 10px;
+
+.lead-image img{
+	display: flex;
+	justify-content: center;
+
+}
+
+.lead-image img {
+	margin: 0 auto;
+	object-fit: contain;
+	max-width: 90%;
+}
+caption{
+	justify-content: center;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	font-size: 0.8rem;
+	color: lightgrey;
 }
 
 p {
@@ -240,18 +265,16 @@ p {
 }
 
 a{
-	font-family: "Open Sans", sans-serif;
 	text-decoration:none;
-	color: blue;
+	color: black;
 }
 	a:visited {
-	color: darkviolet;
+	color: darkgoldenrod;
 }
  a:hover {
-	color: blueviolet;
+	color: lightgoldenrodyellow;
 	background-color: black;
 	}
-
 li {
 	display: flex;
 	justify-content: center;
@@ -260,15 +283,23 @@ li {
 	font-size: 1.0rem;
 	color: red;
 }
-footer {
-  background: #000;
-  color: #E3AD16;
-  width: 100%;
-  margin: 0;
-  padding: 1rem;
-  box-sizing: border-box;
-  text-align: center;
-  font-weight: bold;
+footer a {
+	display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #000;
+  	color: lightgoldenrodyellow;
+  	width: 100%;
+  	margin: 0;
+  	padding: 1rem;
+  	box-sizing: border-box;
+  	font-weight: bold;
+}
+
+footer a:visited {
+	color: darkgoldenrod ;
+}
 }
 
 
