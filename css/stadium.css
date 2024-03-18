@@ -115,6 +115,7 @@ p {
 }
 
 a{
+	flex-direction: column;
 	text-decoration:none;
 	color: blueviolet;
 }
