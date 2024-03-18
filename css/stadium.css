@@ -52,6 +52,12 @@ h1 {
 		color: #F1B82D ;
 	
 }
+address {
+	display:flex ;
+	justify-content: center;
+	font-family: "Roboto", serif;
+	font-size: 1.1rem;
+}
 
 main {
   width: 90%;
