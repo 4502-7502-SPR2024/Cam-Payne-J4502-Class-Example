@@ -94,16 +94,9 @@ h2 {
   box-sizing: border-box;
 }
 
-.image-holder img {
-  width: 150%;
-  max-width: 300px;
-  margin: 0 auto;
-}
 
 
 p {
-	display: flex;
-	justify-content: center;
 	font-family: "Open Sans", sans-serif;
 	font-weight: normal;
 	font-size: 1.1rem;
