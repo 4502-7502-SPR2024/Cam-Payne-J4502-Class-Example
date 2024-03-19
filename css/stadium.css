@@ -35,9 +35,6 @@ body section .lead-image {
 }
 
 title {
-	font-family: "Roboto", serif;
-	font-weight: 700;;
-	font-size: 2.5rem;
 
 }
 
@@ -149,7 +146,6 @@ footer a {
 	}
 nav a{
 		font-family: "Anta", sans-serif;
-		font-size: 0.5rem;
 		text-align: center;
 		text-decoration: none;
 		justify-content: center;
@@ -187,7 +183,7 @@ h1 {
 	justify-content: center;
 	font-family: "Roboto", serif;
 	font-weight: 700;;
-	font-size: 2.5rem;
+	font-size: 4.5rem;
 	padding: 0.2rem;
 		margin: 0.1rem;
 		background: black;
