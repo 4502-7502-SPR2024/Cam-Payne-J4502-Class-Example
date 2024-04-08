@@ -92,13 +92,13 @@ h3 {
 
 }
 
-.lead-image img{
+img{
 	display: flex;
 	justify-content: center;
 
 }
 
-.lead-image img {
+img {
 	border:none;
 	margin: 0 auto;
 	object-fit: contain;
