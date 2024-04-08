@@ -33,7 +33,7 @@ nav a{
 		background: black;
 		border-radius: 0.1rem;
 		border: 1px solid black;
-		color: #F1B82D;
+		color: lightgoldenrodyellow;
 	}
 
 nav a:visited {
@@ -110,18 +110,35 @@ h3 {
 
 }
 
-img{
-	display: flex;
-	justify-content: center;
-
+.gallery-image img {
+  width: 100%;
 }
 
-img {
-	border:none;
-	margin: 0 auto;
-	object-fit: contain;
-	max-width: 80%;
+.button_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
 }
+
+.hideThis {
+  display: none;
+}
+
+button {
+  background-color: #E3AD16;
+  border: none;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  cursor: pointer;
+  width: 100px;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+}
+
 
 
 p {
