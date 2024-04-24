@@ -33,7 +33,7 @@ nav a{
 		background: black;
 		border-radius: 0.1rem;
 		border: 1px solid black;
-		color: lightgoldenrodyellow;
+		color: #F1B82D;
 	}
 
 nav a:visited {
@@ -45,6 +45,12 @@ nav a:hover {
 	background-color: black;
 }
 
+body section .lead-image {
+	display: flex;
+	justify-content: center;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
 body section .lead-image {
 	display: flex;
 	justify-content: center;
